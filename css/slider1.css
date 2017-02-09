@@ -169,8 +169,6 @@
 .demo-1 .deco {
 	width: 260px;
 	height: 260px;
-	border: 2px dashed #ddd;
-	border: 2px dashed rgba(150,150,150,0.4);
 	border-radius: 50%;
 	position: absolute;
 	bottom: 50%;
@@ -180,7 +178,7 @@
 
 .demo-1 [data-icon]:after {
     content: attr(data-icon);
-    font-family: 'AnimalsNormal';
+    font-family: "Droid Sans";
 	color: #999;
 	text-shadow: 0 0 1px #999;
 	position: absolute;
@@ -239,7 +237,7 @@
 .demo-1 .sl-slide blockquote p:before {
 	color: #f0f0f0;
 	color: rgba(244,244,244,0.65);
-	font-family: "Bookman Old Style", Bookman, Garamond, serif;
+	font-family: "Droid Sans";
 	position: absolute;
 	line-height: 60px;
 	width: 75px;
