@@ -178,7 +178,7 @@
 
 .demo-1 [data-icon]:after {
     content: attr(data-icon);
-    font-family: "Droid Sans";
+    font-family: "Droid Sans"; /* FONT PER LE LETTERE C, G, A, ce ne è uno anche sotto */
 	color: #999;
 	text-shadow: 0 0 1px #999;
 	position: absolute;
@@ -237,7 +237,7 @@
 .demo-1 .sl-slide blockquote p:before {
 	color: #f0f0f0;
 	color: rgba(244,244,244,0.65);
-	font-family: "Droid Sans";
+	font-family: "Droid Sans"; /* FONT PER LE LETTERE C, G, A, ce ne è uno anche sopra */
 	position: absolute;
 	line-height: 60px;
 	width: 75px;
@@ -284,7 +284,7 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #FF6347;
+	background: #2F3C71;
 }
 
 .demo-1 .bg-3 .deco {
@@ -311,7 +311,7 @@
 /* Forth Slide */
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
-	background: #5bc2ce;
+	background: #FED4DE;
 }
 
 .demo-1 .bg-4 .deco {
@@ -320,12 +320,12 @@
 
 .demo-1 .bg-4 [data-icon]:after {
 	text-shadow: 0 0 1px #277d87;
-	color: #fff;
+	color: #000;
 }
 
 .demo-1 .bg-4 h2,
 .demo-1 .bg-4 blockquote{
-	color: #fff;
+	color: #000;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
