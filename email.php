@@ -31,7 +31,7 @@ if(empty($body) || empty($from) || empty($first_name) || empty($last_name)) {
 else if(isset($_POST['submit'])){
 
     $subject = "Form submission";
-    $message = $first_name . " " . $last_name . " ha scritto:" . "\n\n" . $_POST['body'];
+    $message = $first_name . " " . $last_name . " (mail: " . $from  . ") ha scritto:" . "\n\n" . $_POST['body'];
 
     $headers = "Da:" . $from;
     mail($to,$subject,$message,$headers);
