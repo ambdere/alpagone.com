@@ -1,6 +1,6 @@
 <?php
 
-$to = "ambdere@gmail.com"; // this is your Email address
+$to = "cgalpago@gmail.com"; // this is your Email address
 $from = $_POST['email']; // this is the sender's Email address
 $first_name = $_POST['name'];
 $last_name = $_POST['surname'];
@@ -45,7 +45,7 @@ else if(isset($_POST['submit'])){
     echo "</div>";
 
     echo "<div style=\"text-align: center\">";
-            echo "Mail Inviata. Grazie " . $first_name . ", ti contatteremo al più presto.";
+            echo "Mail Inviata. Grazie " . $first_name . ", ti contatteremo al piu presto.";
     echo "</div>";
     echo "<div style=\"text-align: center; padding-top: 2em;\">";
             echo "<button tabindex=\"3\" class=\"btn btn-succes btn-large\"><a href=\"index.html\">Torna alla Home</a></button>";
